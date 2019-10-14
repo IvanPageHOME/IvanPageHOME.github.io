@@ -28,6 +28,7 @@
     };
 })();
 
+
 document.ready(
     // toggleTheme function.
     // this script shouldn't be changed.
