@@ -13,15 +13,7 @@ html::-webkit-scrollbar-thumb {
 html::-webkit-scrollbar-thumb:hover {
   background-color: #ddd;
 }
-body {
-  font-size: 11pt;
-  font-weight: normal;
-  line-height: 2em;
-  background-color: $light-background-color;
-  color: $light-font-color;
-  transition: color 0.2s ease, border-color 0.2s ease, background 0.2s ease, opacity 0.2s ease;
-}
-body:before {
+html:before {
   content: "";
   background-repeat: no-repeat;
   background-position: center;
@@ -33,7 +25,7 @@ body:before {
   height: 100%;
   z-index: -1;
 }
-body.dark-theme {
+html.dark-theme {
   background-color: $dark-background-color;
   color: $dark-font-color;
   transition: color 0.2s ease, border-color 0.2s ease, background 0.2s ease, opacity 0.2s ease;
