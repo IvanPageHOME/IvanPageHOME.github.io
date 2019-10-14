@@ -18,7 +18,10 @@ tab_replace:
 
 # Menu setting | format = title_name: link_url
 menu:
+  搜索： / || fa fa-
+  主页： /H
   PAGE: /page
+
 # Social media links
 socials:
   github: "https://github.com/IvanPageHOME/IvanPageHOME.github.io"
